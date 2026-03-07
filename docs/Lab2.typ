@@ -135,27 +135,73 @@
 
 #image("img/lab-2/2026-03-03-234917_hyprshot.png", width: 80%)
 
-== Задание 2
+== Задание 10
 
-#image("img/lab-2/2026-03-03-231721_hyprshot.png", width: 80%)
+#image("img/lab-2/2026-03-07-130909_hyprshot.png", width: 80%)
+#image("img/lab-2/2026-03-07-131109_hyprshot.png", width: 80%)
 
-== Задание 2
+== Задание 11
 
-#image("img/lab-2/2026-03-03-231721_hyprshot.png", width: 80%)
+#image("img/lab-2/2026-03-07-131310_hyprshot.png", width: 80%)
 
-== Задание 2
+== Задание 12
 
-#image("img/lab-2/2026-03-03-231721_hyprshot.png", width: 80%)
+#image("img/lab-2/2026-03-07-131525_hyprshot.png", width: 80%)
 
-== Задание 2
+== Задание 13
 
-#image("img/lab-2/2026-03-03-231721_hyprshot.png", width: 80%)
+#image("img/lab-2/2026-03-07-132235_hyprshot.png", width: 80%)
+#image("img/lab-2/2026-03-07-132504_hyprshot.png", width: 80%)
 
-== Задание 2
+== Задание 14
 
-#image("img/lab-2/2026-03-03-231721_hyprshot.png", width: 80%)
+#image("img/lab-2/2026-03-07-132810_hyprshot.png", width: 80%)
 
-== Задание 2
+== Задание 15
 
-#image("img/lab-2/2026-03-03-231721_hyprshot.png", width: 80%)
+---
+
+== Задание 16
+
+#image("img/lab-2/2026-03-07-133305_hyprshot.png", width: 80%)
+#image("img/lab-2/2026-03-07-133326_hyprshot.png", width: 80%)
+#image("img/lab-2/2026-03-07-133412_hyprshot.png", width: 80%)
+
+== Задание 17
+
+#image("img/lab-2/2026-03-07-133528_hyprshot.png", width: 80%)
+#image("img/lab-2/2026-03-07-133753_hyprshot.png", width: 80%)
+
+== Задание 18
+
+---
+
+== Задание 19
+
+#image("img/lab-2/2026-03-07-134243_hyprshot.png", width: 50%)
+#image("img/lab-2/2026-03-07-134321_hyprshot.png", width: 50%)
+
+== Задание 20
+
+#image("img/lab-2/2026-03-07-205854_hyprshot.png", width: 80%)
+
+== Задание 21
+
+---
+
+== Задание 22
+
+---
+
+== Задание 23
+
+#image("img/lab-2/2026-03-08-000650_hyprshot.png", width: 80%)
+
+== Задание 24
+
+#image("img/lab-2/2026-03-08-001439_hyprshot.png", width: 80%)
+
+== Задание 25
+
+#image("img/lab-2/2026-03-08-001716_hyprshot.png", width: 80%)
 
