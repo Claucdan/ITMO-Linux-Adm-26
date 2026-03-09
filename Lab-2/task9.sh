@@ -5,7 +5,7 @@ sudo reboot
 mount | grep newdisk
 
 cd /mnt/newdisk
-echo -e '#!/bin/bash\necho TEST' > test.sh
+echo -e '#!/bin/bash\necho TEST' > test.sh # ??? 
 chmod +x test.sh
 ./test.sh
 
