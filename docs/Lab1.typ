@@ -34,7 +34,7 @@
   ]
 
   #v(0.5cm)
-  #image("/img/image1.png", width: 80%)
+  #image("img/image1.png", width: 80%)
 
   Санкт-Петербург
 
