@@ -93,21 +93,26 @@ Description: My local APT repository
 - `apt list`
 - `xargs`
 
+#pagebreak()
+
 == Задание 1
 Вывел список всех подключенных репозиториев, включая основные и дополнительные.
 #image("img/lab-3/2026-03-15-154538_hyprshot.png", width: 80%)
+#image("img/lab-3/2026-03-15-154741_hyprshot.png", width: 80%)
 
 #pagebreak()
 == Задание 2
 Обновил локальные индексы пакетов, загрузив информацию из всех подключенных репозиториев.
 #image("img/lab-3/2026-03-15-155002_hyprshot.png", width: 80%)
 
+#pagebreak()
+
 == Задание 3
 Получил подробную информацию о метапакете build-essential, включая описание, зависимости и версию.
-#image("img/lab-3/2026-03-15-155031_hyprshot.png", width: 80%)
+#image("img/lab-3/2026-03-15-155031_hyprshot.png", width: 100%)
 
 == Задание 4
-В процессе установки определил, что будут установлены ничего
+В процессе установки определил, что будут установлено ничего
 #image("img/lab-3/2026-03-15-155228_hyprshot.png", width: 80%)
 
 == Задание 5
@@ -121,6 +126,7 @@ Description: My local APT repository
 #pagebreak()
 == Задание 7
 Пакет bastet успешно скомпилирован и установлен в систему.
+#image("img/lab-3/2026-03-19-225907_hyprshot.png", width: 100%)
 #image("img/lab-3/2026-03-15-164911_hyprshot.png", width: 80%)
 
 #pagebreak()
@@ -129,13 +135,14 @@ Description: My local APT repository
 #image("img/lab-3/2026-03-15-164542_hyprshot.png", width: 80%)
 
 == Задание 9
-Пакет успешно запускается от любого пользователя.
+Пакет успешно запускается от любого пользователя. 
+Тут видна ошибка из-за того, использую ssh + kitty 
 #image("img/lab-3/2026-03-15-164934_hyprshot.png", width: 80%)
 
 #pagebreak()
 == Задание 10
 Создан файл `task10.log` со списком всех установленных пакетов.
-#image("img/lab-3/2026-03-15-165158_hyprshot.png", width: 80%)
+#image("img/lab-3/2026-03-15-165158_hyprshot.png", width: 100%)
 
 == Задание 11
 Создан файл `task11.log` со списком всех зависимостей, необходимых для установки и работы компилятора gcc.
@@ -188,7 +195,7 @@ Description: My local APT repository
 
 #pagebreak()
 == Задание 20
-*Ответ:* В APT (Advanced Package Tool) есть:
+В apt есть:
 - *apt* - основная команда для управления пакетами
 - *apt-get* - классический инструмент управления пакетами
 - *apt-cache* - работа с кэшем пакетов
@@ -201,7 +208,7 @@ Description: My local APT repository
 - *apt-extracttemplates* - извлечение шаблонов для debconf
 - *apt-sortpkgs* - сортировка индексных файлов пакетов
 
-*Подвох:* Фраза "что есть в APT?" может означать не только команды, но и структуру репозитория:
+Ну если спрашивалось про структуру то вот:
 - *Packages* - индексный файл с информацией о пакетах
 - *Release* - файл с описанием репозитория
 - *Release.gpg* - цифровая подпись Release
