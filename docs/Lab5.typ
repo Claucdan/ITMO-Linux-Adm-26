@@ -444,3 +444,44 @@ docker-compose.yml
 
 #image("img/lab-5/2026-04-03-101934_hyprshot.png")
 #image("img/lab-5/2026-04-03-101740_hyprshot.png")
+
+```yaml
+services:
+  db:
+    image: mariadb:11.4
+    container_name: wp_db_31
+    restart: always
+    environment:
+      MARIADB_DATABASE: wordpress
+      MARIADB_USER: wpuser
+      MARIADB_PASSWORD: daniil_db_pass
+      MARIADB_ROOT_PASSWORD: daniil_db_pass
+    volumes:
+      - db_data_31:/var/lib/mysql
+    healthcheck:
+      test: ["CMD", "healthcheck.sh", "--connect", "--innodb_initialized"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+
+  wordpress:
+    image: wordpress:php8.2-apache
+    container_name: wordpress_31
+    restart: always
+    depends_on:
+      db:
+        condition: service_healthy
+    ports:
+      - "2031:80"
+    environment:
+      WORDPRESS_DB_HOST: db:3306
+      WORDPRESS_DB_NAME: wordpress
+      WORDPRESS_DB_USER: wpuser
+      WORDPRESS_DB_PASSWORD: daniil_db_pass
+    volumes:
+      - daniil-wp-data:/var/www/html
+
+volumes:
+  db_data_31:
+  daniil-wp-data:
+```
